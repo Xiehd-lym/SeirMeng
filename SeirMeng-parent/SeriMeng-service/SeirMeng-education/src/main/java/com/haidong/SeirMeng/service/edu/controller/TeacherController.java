@@ -84,6 +84,7 @@ public class TeacherController {
     }
 
     @PostMapping("four")
+//
     public R testNoFour(@RequestBody Guarantee guarantee) {
         guarantee.setAppId(appId);
         guarantee.setAccessKeyId(accessKeyId);
