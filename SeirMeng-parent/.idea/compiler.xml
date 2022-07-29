@@ -8,8 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SeirMeng-education" />
-        <module name="SeirMeng-servicebase" />
         <module name="SeirMeng-util" />
+        <module name="SeirMeng-test" />
+        <module name="SeirMeng-servicebase" />
       </profile>
     </annotationProcessing>
   </component>
@@ -17,6 +18,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SeirMeng-education" options="-parameters" />
       <module name="SeirMeng-servicebase" options="-parameters" />
+      <module name="SeirMeng-test" options="-parameters" />
       <module name="SeirMeng-util" options="-parameters" />
     </option>
   </component>

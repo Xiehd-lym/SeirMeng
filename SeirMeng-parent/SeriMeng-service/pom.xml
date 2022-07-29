@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>SeirMeng-education</module>
+        <module>SeirMeng-test</module>
     </modules>
     <dependencies>
         <dependency>
