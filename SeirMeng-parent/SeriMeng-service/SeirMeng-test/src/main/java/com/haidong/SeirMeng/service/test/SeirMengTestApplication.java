@@ -26,6 +26,6 @@ public class SeirMengTestApplication {
                 "Application is runing!\n\t"
                 +"Swagger-DOC: \t\thttp://localhost:"
                 + port + contextPath +
-                "/swagger-ui.html\n");
+                "/swagger-ui.html\n");  //doc.html
     }
 }

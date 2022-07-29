@@ -24,7 +24,6 @@ mybatis-plus:
 
 logging:
   level:
-    # com.haidong.SeirMeng.service.edu.controller.TeacherController: debug
     root: info
 
 signature:

@@ -1,9 +1,8 @@
 package com.haidong.SeirMeng.service.edu.controller.admin;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.haidong.SeirMeng.service.base.result.R;
-import com.haidong.SeirMeng.service.edu.controller.BaseController;
+import com.haidong.SeirMeng.service.base.model.BaseController;
 import com.haidong.SeirMeng.service.edu.entity.Teacher;
 import com.haidong.SeirMeng.service.edu.entity.query.TeacherQuery;
 import com.haidong.SeirMeng.service.edu.service.TeacherService;

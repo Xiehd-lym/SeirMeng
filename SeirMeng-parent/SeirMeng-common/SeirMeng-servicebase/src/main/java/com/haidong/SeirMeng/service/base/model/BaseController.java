@@ -1,4 +1,4 @@
-package com.haidong.SeirMeng.service.edu.controller;
+package com.haidong.SeirMeng.service.base.model;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
