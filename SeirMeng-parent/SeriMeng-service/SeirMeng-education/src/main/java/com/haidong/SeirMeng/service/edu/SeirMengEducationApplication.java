@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-@SpringBootApplication
+@SpringBootApplication//
 @ComponentScan(basePackages = {"com.haidong.SeirMeng"})
 //·@EnableSwagger2
 // @MapperScan(basePackages = {"com.haidong.SeirMeng.service.edu.mapper"})
