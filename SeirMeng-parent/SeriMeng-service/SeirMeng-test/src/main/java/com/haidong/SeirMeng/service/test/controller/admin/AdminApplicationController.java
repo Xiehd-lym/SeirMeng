@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @Author xiehd
  * @Date 2022 07 29
  **/
-@RestController
+@RestController//
 @RequestMapping("/admin/test/application")
 @Slf4j
 public class AdminApplicationController extends BaseController {
