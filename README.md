@@ -13,11 +13,15 @@ SpringBoot框架
 #### 安装教程
 
 1.  maven+jdk+idea+phpStudy+navicat
-2.  xxxx
+2.  联系邮箱：xiehdwork@163.com
 
 #### 使用说明
 
-1. 启动项目即可
+1. clone 本仓库
+2. 刷数据库脚本（建表）
+3. 保证Java基本运行环境
+4. 启动即可
+5. 联系邮箱：xiehdwork@163.com
 
 #### 参与贡献
 
