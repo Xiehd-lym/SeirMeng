@@ -1,15 +1,17 @@
-package com.haidong.SeirMeng.service.edu;
+package com.haidong.SeirMeng.service.test;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
+/**
+ * @Author xiehd
+ * @Date 2022 07 29
+ **/
 @SpringBootApplication
 @ComponentScan(basePackages = {"com.haidong.SeirMeng"})
-//·@EnableSwagger2
-// @MapperScan(basePackages = {"com.haidong.SeirMeng.service.edu.mapper"})
-public class SeirMengEducationApplication {
+public class SeirMengTestApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SeirMengEducationApplication.class,args);
+        SpringApplication.run(SeirMengTestApplication.class,args);
     }
 }
