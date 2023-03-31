@@ -11,14 +11,14 @@ spring:
   jackson:
     time-zone: GMT+8
     date-format: java.text.SimpleDateFormat
-  profiles:
-    active: dev
+
 server:
-  port: 8080
+  port: 8081
 
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:mapper/**/**Mapper.xml
 
 logging:
   level:

@@ -9,7 +9,10 @@ import com.haidong.SeirMeng.service.edu.mapper.TeacherMapper;
 import com.haidong.SeirMeng.service.edu.service.TeacherService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 /**
  * <p>
@@ -21,6 +24,9 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class TeacherServiceImpl extends ServiceImpl<TeacherMapper, Teacher> implements TeacherService {
+
+    @Autowired
+    private TeacherMapper teacherMapper;
 
     @Override
     public IPage<Teacher> selectPage(Long page, Long limit, TeacherQuery teacherQuery) {
@@ -57,5 +63,11 @@ public class TeacherServiceImpl extends ServiceImpl<TeacherMapper, Teacher> impl
         }
 
         return baseMapper.selectPage(pageParam, queryWrapper);
+    }
+
+    @Override
+    public List<Teacher> getView() {
+        List<Teacher> list =  teacherMapper.getView();
+        return list;
     }
 }

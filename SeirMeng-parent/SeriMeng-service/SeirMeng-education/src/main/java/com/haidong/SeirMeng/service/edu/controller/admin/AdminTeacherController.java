@@ -96,7 +96,12 @@ public class AdminTeacherController extends BaseController {
         }
     }
 
-
+    @ApiOperation("根据视图获取讲师信息")
+    @GetMapping("getView")
+    public R getView(){
+        List<Teacher> teachers = teacherService.getView();
+        return R.ok().data("item", teachers);
+    }
 
 }
 

@@ -2,4 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.haidong.SeirMeng.service.edu.mapper.TeacherMapper">
 
+    <select id="getView" resultType="com.haidong.SeirMeng.service.edu.entity.Teacher">
+        select * from view_teacher;
+    </select>
 </mapper>
