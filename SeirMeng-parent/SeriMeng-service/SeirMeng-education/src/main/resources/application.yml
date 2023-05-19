@@ -11,6 +11,8 @@ spring:
   jackson:
     time-zone: GMT+8
     date-format: java.text.SimpleDateFormat
+  profiles:
+    active: dev
 
 server:
   port: 18081

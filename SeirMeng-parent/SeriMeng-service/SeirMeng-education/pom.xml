@@ -23,7 +23,7 @@
         </dependency>
         <dependency>
             <groupId>com.haidong</groupId>
-            <artifactId>SeirMeng-service</artifactId>
+            <artifactId>SeriMeng-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
