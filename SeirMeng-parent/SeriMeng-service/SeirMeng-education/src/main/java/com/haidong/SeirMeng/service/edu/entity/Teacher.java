@@ -62,11 +62,6 @@ public class Teacher extends BaseEntity {
     //@JsonFormat(timezone = "GMT+8",pattern = "yyyy-MM-dd")
     private Date joinDate;
 
-    @ApiModelProperty(value = "逻辑删除 1（true）已删除， 0（false）未删除")
-    @TableField("is_deleted")
-    @TableLogic
-    private Boolean deleted;
-
     @ApiModelProperty(value = "图片")
     private Blob picture;
 

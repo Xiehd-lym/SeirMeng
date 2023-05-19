@@ -62,8 +62,4 @@ public class Video extends BaseEntity {
     @ApiModelProperty(value = "视频源文件大小（字节）")
     private Long size;
 
-    @ApiModelProperty(value = "乐观锁")
-    private Long version;
-
-
 }

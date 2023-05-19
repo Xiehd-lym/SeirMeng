@@ -36,5 +36,4 @@ public class Subject extends BaseEntity {
     @ApiModelProperty(value = "排序字段")
     private Integer sort;
 
-
 }

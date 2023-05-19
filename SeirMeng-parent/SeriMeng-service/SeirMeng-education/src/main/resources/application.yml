@@ -13,7 +13,9 @@ spring:
     date-format: java.text.SimpleDateFormat
 
 server:
-  port: 8081
+  port: 18081
+  servlet:
+    context-path: /SeirMeng-education
 
 mybatis-plus:
   configuration:
@@ -24,18 +26,3 @@ logging:
   level:
     com.haidong.SeirMeng.service.edu.controller.TeacherController: debug
     root: info
-
-signature:
-  appId: y02xMJ1c
-  accessKeyId: taRGPE8dPuJT
-  keySecret: O3DvH6R7kv3Jamsrs5kk2L34zNqc6zyw
-
-guarantee:
-  http:
-    addproduct:
-      baseUrl: http://testinsure.zxzk.cn/api/anhui_credit_investigation/insurance/add_product
-    apply:
-      baseUrl: http://testinsure.zxzk.cn/api/anhui_credit_investigation/insurance/apply
-
-
-

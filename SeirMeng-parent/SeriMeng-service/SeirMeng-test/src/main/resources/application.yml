@@ -11,10 +11,9 @@ spring:
   jackson:
     time-zone: GMT+8
     date-format: java.text.SimpleDateFormat
-  profiles:
-    active: dev
+
 server:
-  port: 8082
+  port: 18082
   servlet:
     context-path: /SeirMeng-test
 
@@ -25,18 +24,3 @@ mybatis-plus:
 logging:
   level:
     root: info
-
-signature:
-  appId: y02xMJ1c
-  accessKeyId: taRGPE8dPuJT
-  keySecret: O3DvH6R7kv3Jamsrs5kk2L34zNqc6zyw
-
-guarantee:
-  http:
-    addproduct:
-      baseUrl: http://testinsure.zxzk.cn/api/anhui_credit_investigation/insurance/add_product
-    apply:
-      baseUrl: http://testinsure.zxzk.cn/api/anhui_credit_investigation/insurance/apply
-
-
-

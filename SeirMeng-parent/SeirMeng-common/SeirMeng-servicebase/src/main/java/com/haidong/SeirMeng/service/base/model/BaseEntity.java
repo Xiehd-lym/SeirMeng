@@ -26,7 +26,7 @@ public class BaseEntity {
     private Date gmtModified;
 
     @Version
-    private Integer version;
+    private Long version;
 
     @TableLogic
     private Integer deleted;
