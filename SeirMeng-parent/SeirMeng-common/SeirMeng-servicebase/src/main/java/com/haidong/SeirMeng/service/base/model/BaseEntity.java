@@ -1,10 +1,6 @@
 package com.haidong.SeirMeng.service.base.model;
 
-import com.baomidou.mybatisplus.annotation.FieldFill;
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableField;
-import com.baomidou.mybatisplus.annotation.TableId;
-import com.fasterxml.jackson.annotation.JsonFormat;
+import com.baomidou.mybatisplus.annotation.*;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.experimental.Accessors;
@@ -28,4 +24,8 @@ public class BaseEntity {
     @TableField(fill = FieldFill.INSERT_UPDATE)
     //@JsonFormat(timezone = "GMT+8",pattern = "yyyy-MM-dd")
     private Date gmtModified;
+
+    @Version
+    private Integer version;
+
 }

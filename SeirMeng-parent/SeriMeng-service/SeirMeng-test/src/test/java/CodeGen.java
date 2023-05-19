@@ -20,6 +20,12 @@ import java.util.ArrayList;
 public class CodeGen {
 
     @Test
+    public void test(){
+
+    }
+
+
+    @Test
     public void genCode() {
         String moduleName = "test";//用来拼接包名，当前模块名
         // 1、创建代码生成器

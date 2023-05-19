@@ -24,6 +24,10 @@ public class MybatisPlusConfig {
         return new PaginationInterceptor();
     }
 
+    /**
+     * 乐观锁插件
+     * @return
+     */
     @Bean
     public OptimisticLockerInterceptor optimisticLockerInterceptor(){
         return  new OptimisticLockerInterceptor();
