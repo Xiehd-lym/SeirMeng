@@ -28,4 +28,7 @@ public class BaseEntity {
     @Version
     private Integer version;
 
+    @TableLogic
+    private Integer deleted;
+
 }
